@@ -19,11 +19,11 @@ namespace CSharpBasicPrograms
         /// </summary>
         /// <param name="firstNumb"></param>
         /// <param name="secondNumb"></param>
-        public Calculator(int firstNumb,int secondNumb)
+        public Calculator(int firstNumb, int secondNumb)
         {
             first = firstNumb;
             second = secondNumb;
-        }     
+        }
         /// <summary>
         /// Addition of 2 numbers to get sum
         /// </summary>
@@ -31,8 +31,33 @@ namespace CSharpBasicPrograms
         public void Addition()
         {
             sum = first + second;
-            Console.WriteLine("Sum:"+sum);
-        }
+            Console.WriteLine("Sum:" + sum);
 
+        }
+        public void Subtraction()
+        {
+            sum = Math.Abs(first - second);
+            Console.WriteLine("Subtraction:" + sum);
+
+        }
+        public void Multiplication()
+        {
+            sum = first * second;
+            Console.WriteLine("Multipication:" + sum);
+
+        }
+        public void Dividing()
+        {
+            sum = first / second;
+            Console.WriteLine("Dividing:" + sum);
+
+        }
     }
+
+
 }
+
+        
+    
+
+
