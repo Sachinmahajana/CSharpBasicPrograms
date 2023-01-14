@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+      public static void Main(string[] args)
         {
          Console.WriteLine("Welcome to Csharp basic programs");
          Console.WriteLine("Please choose any one program from below option");
